@@ -3,16 +3,10 @@ Projeto para fixação de conhecimento o qual foi desenvolvido uma calculadora u
 
 ## Configuração
 
-### `npm i`
+### `npm i --serve`
 
-Você precisará instalar as dependências descritas no package.json. Na pasta raiz do projeto rode o comando npm i.
+Você precisará instalar o pacote serve do npm utilizando o comando citado acima. 
 
-### `npm start`
+### `serve -s build`
 
-Após instalar as dependências, também na pasta raiz do projeto rode o comando npm start.
-
-Este comando executa o aplicativo no modo de desenvolvimento. <br />
-Abra [http: // localhost: 3000] (http: // localhost: 3000) para visualizá-lo no navegador.
-
-A página será recarregada se você fizer edições. <br />
-Você também verá erros de falhas no console.
+Após instalar as dependências do pacote serve, rode o comando serve -s build para iniciar.
